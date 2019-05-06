@@ -43,29 +43,29 @@ public class Principal extends javax.swing.JFrame {
 
         };
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu5 = new javax.swing.JMenu();
+        jMenuUsuario = new javax.swing.JMenu();
         jMenuItemAddUsuario = new javax.swing.JMenuItem();
         jMenuItemAltUsuario = new javax.swing.JMenuItem();
         jMenuItemExcUsuario = new javax.swing.JMenuItem();
         jMenuItemConUsuario = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
+        jMenuCliente = new javax.swing.JMenu();
         jMenu1 = new javax.swing.JMenu();
-        jMenuItemCadCliente = new javax.swing.JMenuItem();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItemCadClientePF = new javax.swing.JMenuItem();
+        jMenuItemCadClientePJ = new javax.swing.JMenuItem();
+        jMenuItemCadClienteMotorista = new javax.swing.JMenuItem();
         jMenuItemAltCliente = new javax.swing.JMenuItem();
         jMenuItemExcCliente = new javax.swing.JMenuItem();
         jMenuItemConCliente = new javax.swing.JMenuItem();
-        jMenu3 = new javax.swing.JMenu();
-        jMenu6 = new javax.swing.JMenu();
-        jMenuItemAddVeiculo = new javax.swing.JMenuItem();
+        jMenuVeiculo = new javax.swing.JMenu();
+        jMenuCadVeiculoCarro = new javax.swing.JMenu();
+        jMenuItemAddCadVeiculoMarca = new javax.swing.JMenuItem();
         jMenuItemCadastrarMarca = new javax.swing.JMenuItem();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItemCadVeiculoModelo = new javax.swing.JMenuItem();
+        jMenuItemCadVeiculoCategoria = new javax.swing.JMenuItem();
         jMenuItemAltVeiculo = new javax.swing.JMenuItem();
         jMenuItemExcVeiculo = new javax.swing.JMenuItem();
         jMenuItemConVeiculo = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
+        jMenuLocacao = new javax.swing.JMenu();
         jMenuItemAddLocacao = new javax.swing.JMenuItem();
         jMenuItemAltLocacao = new javax.swing.JMenuItem();
         jMenuItemExcLocacao = new javax.swing.JMenuItem();
@@ -104,86 +104,86 @@ public class Principal extends javax.swing.JFrame {
         jMenuBar1.setBackground(new java.awt.Color(255, 204, 0));
         jMenuBar1.setForeground(new java.awt.Color(255, 204, 0));
 
-        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/user_1.png"))); // NOI18N
-        jMenu5.setText("Usuário");
+        jMenuUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/user_1.png"))); // NOI18N
+        jMenuUsuario.setText("Usuário");
 
         jMenuItemAddUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/user_add.png"))); // NOI18N
         jMenuItemAddUsuario.setText("Cadastrar");
-        jMenu5.add(jMenuItemAddUsuario);
+        jMenuUsuario.add(jMenuItemAddUsuario);
 
         jMenuItemAltUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/page_edit.png"))); // NOI18N
         jMenuItemAltUsuario.setText("Alterar");
-        jMenu5.add(jMenuItemAltUsuario);
+        jMenuUsuario.add(jMenuItemAltUsuario);
 
         jMenuItemExcUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/user_delete.png"))); // NOI18N
         jMenuItemExcUsuario.setText("Excluir");
-        jMenu5.add(jMenuItemExcUsuario);
+        jMenuUsuario.add(jMenuItemExcUsuario);
 
         jMenuItemConUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/zoom.png"))); // NOI18N
         jMenuItemConUsuario.setText("Consultar");
-        jMenu5.add(jMenuItemConUsuario);
+        jMenuUsuario.add(jMenuItemConUsuario);
 
-        jMenuBar1.add(jMenu5);
+        jMenuBar1.add(jMenuUsuario);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/group_1.png"))); // NOI18N
-        jMenu2.setText("Cliente");
-        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+        jMenuCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/group_1.png"))); // NOI18N
+        jMenuCliente.setText("Cliente");
+        jMenuCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenu2ActionPerformed(evt);
+                jMenuClienteActionPerformed(evt);
             }
         });
 
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/group_add.png"))); // NOI18N
         jMenu1.setText("Cadastrar");
 
-        jMenuItemCadCliente.setText("Pessoa Física");
-        jMenuItemCadCliente.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItemCadClientePF.setText("Pessoa Física");
+        jMenuItemCadClientePF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItemCadClienteActionPerformed(evt);
+                jMenuItemCadClientePFActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItemCadCliente);
+        jMenu1.add(jMenuItemCadClientePF);
 
-        jMenuItem1.setText("Pessoa Jurídica");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItemCadClientePJ.setText("Pessoa Jurídica");
+        jMenuItemCadClientePJ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                jMenuItemCadClientePJActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMenu1.add(jMenuItemCadClientePJ);
 
-        jMenuItem2.setText("Motorista");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItemCadClienteMotorista.setText("Motorista");
+        jMenuItemCadClienteMotorista.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                jMenuItemCadClienteMotoristaActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem2);
+        jMenu1.add(jMenuItemCadClienteMotorista);
 
-        jMenu2.add(jMenu1);
+        jMenuCliente.add(jMenu1);
 
         jMenuItemAltCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/page_edit.png"))); // NOI18N
         jMenuItemAltCliente.setText("Aleterar");
-        jMenu2.add(jMenuItemAltCliente);
+        jMenuCliente.add(jMenuItemAltCliente);
 
         jMenuItemExcCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/group_delete.png"))); // NOI18N
         jMenuItemExcCliente.setText("Excluir");
-        jMenu2.add(jMenuItemExcCliente);
+        jMenuCliente.add(jMenuItemExcCliente);
 
         jMenuItemConCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/zoom.png"))); // NOI18N
         jMenuItemConCliente.setText("Consultar");
-        jMenu2.add(jMenuItemConCliente);
+        jMenuCliente.add(jMenuItemConCliente);
 
-        jMenuBar1.add(jMenu2);
+        jMenuBar1.add(jMenuCliente);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/veiculo.png"))); // NOI18N
-        jMenu3.setText("Veículo");
+        jMenuVeiculo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/veiculo.png"))); // NOI18N
+        jMenuVeiculo.setText("Veículo");
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/car_add.png"))); // NOI18N
-        jMenu6.setText("Cadastrar");
+        jMenuCadVeiculoCarro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/car_add.png"))); // NOI18N
+        jMenuCadVeiculoCarro.setText("Cadastrar");
 
-        jMenuItemAddVeiculo.setText("Veículo");
-        jMenu6.add(jMenuItemAddVeiculo);
+        jMenuItemAddCadVeiculoMarca.setText("Veículo");
+        jMenuCadVeiculoCarro.add(jMenuItemAddCadVeiculoMarca);
 
         jMenuItemCadastrarMarca.setText("Marca");
         jMenuItemCadastrarMarca.addActionListener(new java.awt.event.ActionListener() {
@@ -191,50 +191,50 @@ public class Principal extends javax.swing.JFrame {
                 jMenuItemCadastrarMarcaActionPerformed(evt);
             }
         });
-        jMenu6.add(jMenuItemCadastrarMarca);
+        jMenuCadVeiculoCarro.add(jMenuItemCadastrarMarca);
 
-        jMenuItem4.setText("Modelo");
-        jMenu6.add(jMenuItem4);
+        jMenuItemCadVeiculoModelo.setText("Modelo");
+        jMenuCadVeiculoCarro.add(jMenuItemCadVeiculoModelo);
 
-        jMenuItem5.setText("Categoria");
-        jMenu6.add(jMenuItem5);
+        jMenuItemCadVeiculoCategoria.setText("Categoria");
+        jMenuCadVeiculoCarro.add(jMenuItemCadVeiculoCategoria);
 
-        jMenu3.add(jMenu6);
+        jMenuVeiculo.add(jMenuCadVeiculoCarro);
 
         jMenuItemAltVeiculo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/page_edit.png"))); // NOI18N
         jMenuItemAltVeiculo.setText("Alterar");
-        jMenu3.add(jMenuItemAltVeiculo);
+        jMenuVeiculo.add(jMenuItemAltVeiculo);
 
         jMenuItemExcVeiculo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/car_delete.png"))); // NOI18N
         jMenuItemExcVeiculo.setText("Excluir");
-        jMenu3.add(jMenuItemExcVeiculo);
+        jMenuVeiculo.add(jMenuItemExcVeiculo);
 
         jMenuItemConVeiculo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/zoom.png"))); // NOI18N
         jMenuItemConVeiculo.setText("Consultar");
-        jMenu3.add(jMenuItemConVeiculo);
+        jMenuVeiculo.add(jMenuItemConVeiculo);
 
-        jMenuBar1.add(jMenu3);
+        jMenuBar1.add(jMenuVeiculo);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/chave.png"))); // NOI18N
-        jMenu4.setText("Locação");
+        jMenuLocacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/chave.png"))); // NOI18N
+        jMenuLocacao.setText("Locação");
 
         jMenuItemAddLocacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/key_add.png"))); // NOI18N
         jMenuItemAddLocacao.setText("Cadastrar");
-        jMenu4.add(jMenuItemAddLocacao);
+        jMenuLocacao.add(jMenuItemAddLocacao);
 
         jMenuItemAltLocacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/page_edit.png"))); // NOI18N
         jMenuItemAltLocacao.setText("Alterar");
-        jMenu4.add(jMenuItemAltLocacao);
+        jMenuLocacao.add(jMenuItemAltLocacao);
 
         jMenuItemExcLocacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/key_delete.png"))); // NOI18N
         jMenuItemExcLocacao.setText("Excluir");
-        jMenu4.add(jMenuItemExcLocacao);
+        jMenuLocacao.add(jMenuItemExcLocacao);
 
         jMenuItemConLocacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/zoom.png"))); // NOI18N
         jMenuItemConLocacao.setText("Consultar");
-        jMenu4.add(jMenuItemConLocacao);
+        jMenuLocacao.add(jMenuItemConLocacao);
 
-        jMenuBar1.add(jMenu4);
+        jMenuBar1.add(jMenuLocacao);
 
         setJMenuBar(jMenuBar1);
 
@@ -253,33 +253,33 @@ public class Principal extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
+    private void jMenuClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuClienteActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_jMenu2ActionPerformed
+    }//GEN-LAST:event_jMenuClienteActionPerformed
 
-    private void jMenuItemCadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadClienteActionPerformed
+    private void jMenuItemCadClientePFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadClientePFActionPerformed
         // TODO add your handling code here:
         jDesktopPane1.removeAll();
         AreaCadastrarClientePF pF = new AreaCadastrarClientePF();
         jDesktopPane1.add(pF);
         pF.setVisible(true);
-    }//GEN-LAST:event_jMenuItemCadClienteActionPerformed
+    }//GEN-LAST:event_jMenuItemCadClientePFActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void jMenuItemCadClientePJActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadClientePJActionPerformed
         // TODO add your handling code here:
         jDesktopPane1.removeAll();
         AreaCadastrarClientePJ pJ = new AreaCadastrarClientePJ();
         jDesktopPane1.add(pJ);
         pJ.setVisible(true);
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_jMenuItemCadClientePJActionPerformed
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+    private void jMenuItemCadClienteMotoristaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadClienteMotoristaActionPerformed
         // TODO add your handling code here:
         AreaCadastrarMotorista motorista = new AreaCadastrarMotorista();
         jDesktopPane1.add(motorista);
         motorista.setVisible(true);
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
+    }//GEN-LAST:event_jMenuItemCadClienteMotoristaActionPerformed
 
     private void jMenuItemCadastrarMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadastrarMarcaActionPerformed
         // TODO add your handling code here:
@@ -326,24 +326,21 @@ public class Principal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu5;
-    private javax.swing.JMenu jMenu6;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenu jMenuCadVeiculoCarro;
+    private javax.swing.JMenu jMenuCliente;
+    private javax.swing.JMenuItem jMenuItemAddCadVeiculoMarca;
     private javax.swing.JMenuItem jMenuItemAddLocacao;
     private javax.swing.JMenuItem jMenuItemAddUsuario;
-    private javax.swing.JMenuItem jMenuItemAddVeiculo;
     private javax.swing.JMenuItem jMenuItemAltCliente;
     private javax.swing.JMenuItem jMenuItemAltLocacao;
     private javax.swing.JMenuItem jMenuItemAltUsuario;
     private javax.swing.JMenuItem jMenuItemAltVeiculo;
-    private javax.swing.JMenuItem jMenuItemCadCliente;
+    private javax.swing.JMenuItem jMenuItemCadClienteMotorista;
+    private javax.swing.JMenuItem jMenuItemCadClientePF;
+    private javax.swing.JMenuItem jMenuItemCadClientePJ;
+    private javax.swing.JMenuItem jMenuItemCadVeiculoCategoria;
+    private javax.swing.JMenuItem jMenuItemCadVeiculoModelo;
     private javax.swing.JMenuItem jMenuItemCadastrarMarca;
     private javax.swing.JMenuItem jMenuItemConCliente;
     private javax.swing.JMenuItem jMenuItemConLocacao;
@@ -353,6 +350,9 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItemExcLocacao;
     private javax.swing.JMenuItem jMenuItemExcUsuario;
     private javax.swing.JMenuItem jMenuItemExcVeiculo;
+    private javax.swing.JMenu jMenuLocacao;
+    private javax.swing.JMenu jMenuUsuario;
+    private javax.swing.JMenu jMenuVeiculo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
