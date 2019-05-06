@@ -19,7 +19,7 @@ import java.nio.Buffer;
  */
 public class GeradorIdentificador {
     private int identificador = 0;
-    String nomeDoArquivo = "C:\\Users\\Pablo Fellype\\Documents\\RentSystem\\DadosID.txt";
+    String nomeDoArquivo = "PFellype/Documentos/RentSystem/DadosID.txt";
     
     public GeradorIdentificador() throws FileNotFoundException, IOException{
         FileReader fr = new FileReader(nomeDoArquivo);
